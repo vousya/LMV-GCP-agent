@@ -12,6 +12,7 @@ router = APIRouter(tags=["Agent"])
 async def get_answer(
         message : Message
 ):
-    response = await agent_service.get_answer(text=message.text, session_id=message.session_id)
+    #response = await agent_service.get_answer(text=message.text, session_id=message.session_id)
 
-    return {"response": response}
+    #return {"response": response}
+    pass
